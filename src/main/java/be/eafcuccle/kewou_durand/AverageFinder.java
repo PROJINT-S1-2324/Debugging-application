@@ -8,7 +8,7 @@ public class AverageFinder {
     }
 
     private static double findAverage(String[] input) {
-        double result = 1;
+        double result = 0;
         for (String s : input) {
             result += Integer.parseInt(s);
         }
